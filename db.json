@@ -1,16 +1,16 @@
 {
     "version": "1.2.11",
     "db_type": "http",
-    "start_time": "2024-08-04T10:03:47.173Z",
+    "start_time": "2024-08-04T10:19:23.590Z",
     "db_info": {
         "instance_start_time": "1722765352",
         "db_name": "app_dev_6f9f6046e82a47d0867e47742dd9ee65",
         "purge_seq": "0-g1AAAABXeJzLYWBgYMpgTmEQTM4vTc5ISXIwNDLXMwBCwxyQVB4LkGRoAFL_gSArkQGP2kSGpHqIoiwAtOgYRA",
-        "update_seq": "45-g1AAAACbeJzLYWBgYMpgTmEQTM4vTc5ISXIwNDLXMwBCwxyQVB4LkGRoAFL_gSArgzmRMxcowJ6aamhkYpKCTR8e0xIZkuqhxqiAjTFJTk40T0vDpiELAAJbKQo",
+        "update_seq": "50-g1AAAACbeJzLYWBgYMpgTmEQTM4vTc5ISXIwNDLXMwBCwxyQVB4LkGRoAFL_gSArgzmRMxcowJ6aamhkYpKCTR8e0xIZkuqhxmiCjTFJTk40T0vDpiELAAMFKQ8",
         "sizes": {
-            "file": 311714,
-            "external": 6071,
-            "active": 9639
+            "file": 340386,
+            "external": 6304,
+            "active": 10414
         },
         "props": {},
         "doc_del_count": 0,
@@ -61,7 +61,7 @@
         },
         {
             "_id": "app_metadata",
-            "_rev": "12-0f23851d7f132a5fa2b096ed540e4de9",
+            "_rev": "14-63ffa2cf431fec58a5b701c399e4d78f",
             "appId": "app_dev_6f9f6046e82a47d0867e47742dd9ee65",
             "type": "app",
             "version": "2.29.25",
@@ -74,7 +74,7 @@
                 "_id": "app_dev_6f9f6046e82a47d0867e47742dd9ee65"
             },
             "tenantId": "default",
-            "updatedAt": "2024-08-04T10:03:39.225Z",
+            "updatedAt": "2024-08-04T10:19:11.004Z",
             "createdAt": "2024-08-04T09:55:52.901Z",
             "status": "development",
             "navigation": {
@@ -108,8 +108,10 @@
             },
             "updatedBy": "us_41742f1195ea4fdd861a014a1b774c17",
             "_revisions": {
-                "start": 12,
+                "start": 14,
                 "ids": [
+                    "63ffa2cf431fec58a5b701c399e4d78f",
+                    "43de2525df0827e11d6e7e730648148b",
                     "0f23851d7f132a5fa2b096ed540e4de9",
                     "1eb948916fdf996d65de92fa55d4eec8",
                     "938330d724105c9220b4006f94f69ad4",
@@ -164,7 +166,7 @@
         },
         {
             "_id": "screen_8d8d5a8685a3450695a7ded8c21d12c9",
-            "_rev": "19-74e14f6907654c7fdc78854470525da9",
+            "_rev": "22-181efc4764940c6f967ee86a8274d9ca",
             "showNavigation": true,
             "width": "Large",
             "props": {
@@ -225,6 +227,18 @@
                         "size": "M",
                         "gap": "M",
                         "icon": "ri-arrow-up-fill"
+                    },
+                    {
+                        "_id": "c2a296d0d83c44227badb8c7e4059259b",
+                        "_component": "@budibase/standard-components/tag",
+                        "_styles": {
+                            "normal": {},
+                            "hover": {},
+                            "active": {}
+                        },
+                        "_instanceName": "New Tag",
+                        "size": "M",
+                        "text": "this is the changes for {{  [user].[email] }} "
                     }
                 ],
                 "_instanceName": "New Screen",
@@ -242,11 +256,14 @@
             "name": "c40b1a746c39342bcaa04a506fcce95d1",
             "template": "createFromScratch",
             "createdAt": "2024-08-04T09:57:46.043Z",
-            "updatedAt": "2024-08-04T10:03:10.628Z",
+            "updatedAt": "2024-08-04T10:19:11.026Z",
             "pluginAdded": false,
             "_revisions": {
-                "start": 19,
+                "start": 22,
                 "ids": [
+                    "181efc4764940c6f967ee86a8274d9ca",
+                    "2bab152ed0b2e4548e88b9b7e2972b60",
+                    "7aac1f681f4b8665f3629514e13fb344",
                     "74e14f6907654c7fdc78854470525da9",
                     "202f6ac2ecc0adb7bca0a66875d6925c",
                     "e94ae67fd77b3adcb2a48dbd34f04aba",
@@ -385,5 +402,5 @@
     ]
 }
 {
-    "seq": "45-g1AAAACbeJzLYWBgYMpgTmEQTM4vTc5ISXIwNDLXMwBCwxyQVCJDUv3___-zMpgTVXKBAuwmycmJ5mlp2DTgMSaPBUgyNACp_1DTOMGmpaYaGpmYpGDTlwUAYCwpCg"
+    "seq": "50-g1AAAACbeJzLYWBgYMpgTmEQTM4vTc5ISXIwNDLXMwBCwxyQVCJDUv3___-zMpgTNXOBAuwmycmJ5mlp2DTgMSaPBUgyNACp_1DTOMGmpaYaGpmYpGDTlwUAYlwpDw"
 }
