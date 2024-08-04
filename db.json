@@ -1,16 +1,16 @@
 {
     "version": "1.2.11",
     "db_type": "http",
-    "start_time": "2024-08-04T11:00:39.648Z",
+    "start_time": "2024-08-04T11:37:00.919Z",
     "db_info": {
         "instance_start_time": "1722769142",
         "db_name": "app_dev_f4c1897db73a458ea9b309c520bce3fa",
         "purge_seq": "0-g1AAAABXeJzLYWBgYMpgTmEQTM4vTc5ISXIwNDLXMwBCwxyQVB4LkGRoAFL_gSArkQGP2kSGpHqIoiwAtOgYRA",
-        "update_seq": "23-g1AAAACbeJzLYWBgYMpgTmEQTM4vTc5ISXIwNDLXMwBCwxyQVB4LkGRoAFL_gSArgzmRMxcowJ5oYmFuZGaKTR8e0xIZkuqhxvCBjTEyTk1MTDbBpiELANjPKGE",
+        "update_seq": "33-g1AAAACbeJzLYWBgYMpgTmEQTM4vTc5ISXIwNDLXMwBCwxyQVB4LkGRoAFL_gSArgzmRMxcowJ5oYmFuZGaKTR8e0xIZkuqhxkiAjTEyTk1MTDbBpiELANojKGs",
         "sizes": {
-            "file": 131490,
-            "external": 8116,
-            "active": 10654
+            "file": 233890,
+            "external": 8336,
+            "active": 12424
         },
         "props": {},
         "doc_del_count": 0,
@@ -61,7 +61,7 @@
         },
         {
             "_id": "app_metadata",
-            "_rev": "17-2a80ae6f52d618f1a8c6fe9c02dc1845",
+            "_rev": "22-adf373993e2f6a615f256d2db2740c4d",
             "appId": "app_dev_f4c1897db73a458ea9b309c520bce3fa",
             "type": "app",
             "version": "2.29.26",
@@ -75,7 +75,7 @@
                 "_id": "app_dev_f4c1897db73a458ea9b309c520bce3fa"
             },
             "tenantId": "default",
-            "updatedAt": "2024-08-04T11:00:39.610Z",
+            "updatedAt": "2024-08-04T11:37:00.888Z",
             "createdAt": "2024-08-04T10:59:02.288Z",
             "status": "development",
             "navigation": {
@@ -109,8 +109,13 @@
             },
             "updatedBy": "us_489ce3a59e8f42c0bcd281b81e8f3e74",
             "_revisions": {
-                "start": 17,
+                "start": 22,
                 "ids": [
+                    "adf373993e2f6a615f256d2db2740c4d",
+                    "3f232fd0dcebee6b512b94fedfc95d03",
+                    "01c73e204f0dacd6d2992c28bd88425b",
+                    "c580ec7bd17f795ebc8efa5e630e21d1",
+                    "26fff2fd98c82875be766a812eec2f45",
                     "2a80ae6f52d618f1a8c6fe9c02dc1845",
                     "6eaf817148ff803afa8248474c3d9a1d",
                     "f8ee006dd444535c38da66dea57268fc",
@@ -170,7 +175,7 @@
         },
         {
             "_id": "screen_8d8d5a8685a3450695a7ded8c21d12c9",
-            "_rev": "24-91c291020ef423dcba9c144a244b6bb1",
+            "_rev": "29-61e47ddbb3a0a1ec7fdbdaca431243d1",
             "showNavigation": true,
             "width": "Large",
             "props": {
@@ -245,6 +250,20 @@
                         "type": "cta",
                         "size": "M",
                         "gap": "M"
+                    },
+                    {
+                        "_id": "cfafebed0cbb24211b9316b24bf859429",
+                        "_component": "@budibase/standard-components/button",
+                        "_styles": {
+                            "normal": {},
+                            "hover": {},
+                            "active": {}
+                        },
+                        "_instanceName": "New Button",
+                        "text": "try2",
+                        "type": "cta",
+                        "size": "M",
+                        "gap": "M"
                     }
                 ],
                 "_instanceName": "New Screen",
@@ -262,11 +281,16 @@
             "name": "c40b1a746c39342bcaa04a506fcce95d1",
             "template": "createFromScratch",
             "createdAt": "2024-08-04T09:57:46.043Z",
-            "updatedAt": "2024-08-04T11:00:19.417Z",
+            "updatedAt": "2024-08-04T11:25:33.251Z",
             "pluginAdded": false,
             "_revisions": {
-                "start": 24,
+                "start": 29,
                 "ids": [
+                    "61e47ddbb3a0a1ec7fdbdaca431243d1",
+                    "085f7d8e18c29276858008481c4d6b24",
+                    "af11509dbf1b6732b8fb84ee912d689f",
+                    "100ddaacc5202121b3055fd5c3748880",
+                    "621960a6474bd5cbfbaddbba75a9d1e5",
                     "91c291020ef423dcba9c144a244b6bb1",
                     "9a95257ef71245e09b65a8b8304ddf84",
                     "ee35f08a2f94f8d4943a6aef2d206db5",
@@ -410,5 +434,5 @@
     ]
 }
 {
-    "seq": "23-g1AAAACbeJzLYWBgYMpgTmEQTM4vTc5ISXIwNDLXMwBCwxyQVCJDUv3___-zMpgT-XKBAuxGxqmJickm2DTgMSaPBUgyNACp_1DTOMGmJZpYmBuZmWLTlwUANmkoYQ"
+    "seq": "33-g1AAAACbeJzLYWBgYMpgTmEQTM4vTc5ISXIwNDLXMwBCwxyQVCJDUv3___-zMpgTJXKBAuxGxqmJickm2DTgMSaPBUgyNACp_1DTOMGmJZpYmBuZmWLTlwUAOskoaw"
 }
