@@ -1,16 +1,16 @@
 {
     "version": "1.2.11",
     "db_type": "http",
-    "start_time": "2024-08-04T11:00:39.648Z",
+    "start_time": "2024-08-04T11:10:22.630Z",
     "db_info": {
-        "instance_start_time": "1722769142",
-        "db_name": "app_dev_f4c1897db73a458ea9b309c520bce3fa",
+        "instance_start_time": "1722765352",
+        "db_name": "app_dev_6f9f6046e82a47d0867e47742dd9ee65",
         "purge_seq": "0-g1AAAABXeJzLYWBgYMpgTmEQTM4vTc5ISXIwNDLXMwBCwxyQVB4LkGRoAFL_gSArkQGP2kSGpHqIoiwAtOgYRA",
-        "update_seq": "23-g1AAAACbeJzLYWBgYMpgTmEQTM4vTc5ISXIwNDLXMwBCwxyQVB4LkGRoAFL_gSArgzmRMxcowJ5oYmFuZGaKTR8e0xIZkuqhxvCBjTEyTk1MTDbBpiELANjPKGE",
+        "update_seq": "61-g1AAAACbeJzLYWBgYMpgTmEQTM4vTc5ISXIwNDLXMwBCwxyQVB4LkGRoAFL_gSArgzmRKxcowJ6aamhkYpKCTR8e0xIZkuqhxhiDjTFJTk40T0vDpiELAATCKRo",
         "sizes": {
-            "file": 131490,
-            "external": 8116,
-            "active": 10654
+            "file": 422306,
+            "external": 6509,
+            "active": 12227
         },
         "props": {},
         "doc_del_count": 0,
@@ -23,7 +23,7 @@
             "w": 1,
             "r": 1
         },
-        "host": "http://127.0.0.1:5984/app_dev_f4c1897db73a458ea9b309c520bce3fa/",
+        "host": "http://127.0.0.1:5984/app_dev_6f9f6046e82a47d0867e47742dd9ee65/",
         "auto_compaction": false,
         "adapter": "http"
     }
@@ -61,22 +61,21 @@
         },
         {
             "_id": "app_metadata",
-            "_rev": "17-2a80ae6f52d618f1a8c6fe9c02dc1845",
-            "appId": "app_dev_f4c1897db73a458ea9b309c520bce3fa",
+            "_rev": "20-0ceddbc38b68e44843f0e9e57044bdef",
+            "appId": "app_dev_6f9f6046e82a47d0867e47742dd9ee65",
             "type": "app",
             "version": "2.29.26",
             "componentLibraries": [
                 "@budibase/standard-components"
             ],
-            "name": "My app6",
-            "url": "/my-app6",
-            "template": "undefined",
+            "name": "try",
+            "url": "/try",
             "instance": {
-                "_id": "app_dev_f4c1897db73a458ea9b309c520bce3fa"
+                "_id": "app_dev_6f9f6046e82a47d0867e47742dd9ee65"
             },
             "tenantId": "default",
-            "updatedAt": "2024-08-04T11:00:39.610Z",
-            "createdAt": "2024-08-04T10:59:02.288Z",
+            "updatedAt": "2024-08-04T11:10:22.222Z",
+            "createdAt": "2024-08-04T09:55:52.901Z",
             "status": "development",
             "navigation": {
                 "navigation": "Top",
@@ -107,15 +106,18 @@
                 "disableUserMetadata": true,
                 "skeletonLoader": true
             },
-            "updatedBy": "us_489ce3a59e8f42c0bcd281b81e8f3e74",
+            "updatedBy": "us_41742f1195ea4fdd861a014a1b774c17",
             "_revisions": {
-                "start": 17,
+                "start": 20,
                 "ids": [
-                    "2a80ae6f52d618f1a8c6fe9c02dc1845",
-                    "6eaf817148ff803afa8248474c3d9a1d",
-                    "f8ee006dd444535c38da66dea57268fc",
-                    "ea379b8d6b80560f40cda96ff2e0e35e",
-                    "5a6abd3802f212a6c418cd11fa049a25",
+                    "0ceddbc38b68e44843f0e9e57044bdef",
+                    "fb20eed4fda98a2054731e018353e31e",
+                    "d1a3475f6bff3772fb2b405596e7a7eb",
+                    "068c64428ec951bc9b98771d66e02eaf",
+                    "90f657f86d6968221663c3092b7baa5d",
+                    "debe6a98299c68e539f40f1a44c64adb",
+                    "63ffa2cf431fec58a5b701c399e4d78f",
+                    "43de2525df0827e11d6e7e730648148b",
                     "0f23851d7f132a5fa2b096ed540e4de9",
                     "1eb948916fdf996d65de92fa55d4eec8",
                     "938330d724105c9220b4006f94f69ad4",
@@ -170,7 +172,7 @@
         },
         {
             "_id": "screen_8d8d5a8685a3450695a7ded8c21d12c9",
-            "_rev": "24-91c291020ef423dcba9c144a244b6bb1",
+            "_rev": "25-69eb6e41eeb69e5cb7513b6f8865e594",
             "showNavigation": true,
             "width": "Large",
             "props": {
@@ -245,6 +247,18 @@
                         "type": "cta",
                         "size": "M",
                         "gap": "M"
+                    },
+                    {
+                        "_id": "c50c6949e6ba24cba9594d784c3e8a1a0",
+                        "_component": "@budibase/standard-components/tag",
+                        "_styles": {
+                            "normal": {},
+                            "hover": {},
+                            "active": {}
+                        },
+                        "_instanceName": "New Tag",
+                        "size": "M",
+                        "text": "{{  [user].[email] }} !!!!!!!!!!"
                     }
                 ],
                 "_instanceName": "New Screen",
@@ -262,16 +276,17 @@
             "name": "c40b1a746c39342bcaa04a506fcce95d1",
             "template": "createFromScratch",
             "createdAt": "2024-08-04T09:57:46.043Z",
-            "updatedAt": "2024-08-04T11:00:19.417Z",
+            "updatedAt": "2024-08-04T11:10:11.417Z",
             "pluginAdded": false,
             "_revisions": {
-                "start": 24,
+                "start": 25,
                 "ids": [
-                    "91c291020ef423dcba9c144a244b6bb1",
-                    "9a95257ef71245e09b65a8b8304ddf84",
-                    "ee35f08a2f94f8d4943a6aef2d206db5",
-                    "0725cde7812d6efc10d223380087eb35",
-                    "0a984bd7459afce00e1abac004360f0c",
+                    "69eb6e41eeb69e5cb7513b6f8865e594",
+                    "edb7032c903d84106fff331c24baa34c",
+                    "05c496023d95640f1d4a547059d2a7b8",
+                    "181efc4764940c6f967ee86a8274d9ca",
+                    "2bab152ed0b2e4548e88b9b7e2972b60",
+                    "7aac1f681f4b8665f3629514e13fb344",
                     "74e14f6907654c7fdc78854470525da9",
                     "202f6ac2ecc0adb7bca0a66875d6925c",
                     "e94ae67fd77b3adcb2a48dbd34f04aba",
@@ -296,7 +311,7 @@
         },
         {
             "_id": "ta_2a58ec29e4254be5bd1173d129562ee1",
-            "_rev": "3-8a22cfa107ad900d56e8d0bb91e75334",
+            "_rev": "4-42b4204a7e8874e4ef32333eefe77a87",
             "name": "try",
             "schema": {
                 "name": {
@@ -331,8 +346,9 @@
             "indexes": [],
             "primaryDisplay": "name",
             "_revisions": {
-                "start": 3,
+                "start": 4,
                 "ids": [
+                    "42b4204a7e8874e4ef32333eefe77a87",
                     "8a22cfa107ad900d56e8d0bb91e75334",
                     "842bb92ef3bfaca92c158658d2926065",
                     "795667f5e7d49b3a1e9fbbc746560425"
@@ -341,7 +357,7 @@
         },
         {
             "_id": "ta_users",
-            "_rev": "1-31a08b830da5502c06112ce677245c87",
+            "_rev": "2-5b5c2288876bae521e82182ba626a857",
             "type": "table",
             "sourceId": "bb_internal",
             "sourceType": "internal",
@@ -405,10 +421,17 @@
             },
             "primaryDisplay": "email",
             "createdAt": "2024-08-04T09:55:52.866Z",
-            "updatedAt": "2024-08-04T09:55:52.866Z"
+            "updatedAt": "2024-08-04T09:55:52.866Z",
+            "_revisions": {
+                "start": 2,
+                "ids": [
+                    "5b5c2288876bae521e82182ba626a857",
+                    "31a08b830da5502c06112ce677245c87"
+                ]
+            }
         }
     ]
 }
 {
-    "seq": "23-g1AAAACbeJzLYWBgYMpgTmEQTM4vTc5ISXIwNDLXMwBCwxyQVCJDUv3___-zMpgT-XKBAuxGxqmJickm2DTgMSaPBUgyNACp_1DTOMGmJZpYmBuZmWLTlwUANmkoYQ"
+    "seq": "61-g1AAAACbeJzLYWBgYMpgTmEQTM4vTc5ISXIwNDLXMwBCwxyQVCJDUv3___-zMpgTjXOBAuwmycmJ5mlp2DTgMSaPBUgyNACp_1DTuMCmpaYaGpmYpGDTlwUAZt4pGg"
 }
